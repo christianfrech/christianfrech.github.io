@@ -26,5 +26,5 @@ latest_posts:
 
 My name is Christian Frech, a PhD Canddidate in Materials Science Engineering at UT Austin. I specialize designing multiscale simulation frameworks which scale from highly accurate, ab-initio calculations to longer time and length scales to understand battery microstructure and electrochemistry. We aim to derive useful engineering guidelines from our simulations for experimantalists. 
 
-Much of my work employs kinetic Monte Carlo (kMC) simulations using an optimized in-house code for vacancy-mediated diffusion (serial and parallel versions available). I also use Density Functional Theory (DFT) calculations (VASP) to calculate formation energies, reaction energies, and dispersion realations.
+Much of my work employs kinetic Monte Carlo (kMC) simulations using an optimized in-house code for vacancy-mediated diffusion (serial and parallel versions available). I also use Density Functional Theory (DFT) calculations to calculate formation energies, reaction energies, and dispersion realations.
 
