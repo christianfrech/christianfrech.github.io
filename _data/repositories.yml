@@ -5,5 +5,5 @@ repo_description_lines_max: 4
 
 github_repos:
   - christianfrech/KMC_cpp
-  - christianfrech/VASP-visualization
+  - ESMS-Lab/VASP-visualization
   - ESMS-Lab/phasediagram_and_interfacialreactivity
