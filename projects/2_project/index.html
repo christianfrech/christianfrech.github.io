@@ -6,11 +6,12 @@
 <article class="text-center">
   <div class="container-fluid">
     <div class="mx-auto" style="width:80%;">
-    Recent works have proposed that a “stress-corrosion cracking-like” process
-    worsens the fracture resistance of SEs and facilitates Li dendrite growth in solid state batteries. In the proposed process, nascent SE exposed by the advancing dendrite re-
-    acts with metal from the dendrite. The volume change associated with this reaction increases the local stress, fostering SE fracture and dendrite propagation. Here, first-
-    principles calculations are used to predict the volume changes associated with these M/SE (M = Li, Na) reactions as a function of electrochemical potential. 
-    These incorporate workflows from the materials project using the pymatgen APIs to calculate expected decomposition reactions & pathways. 
+        <p>
+            Recent works have proposed that a “stress-corrosion cracking-like” process worsens the fracture resistance of solid electrolytes and facilitates Li dendrite growth in solid state batteries. In the proposed process, nascent SE exposed by the advancing dendrite reacts with metal from the dendrite. The volume change associated with this reaction increases the local stress, fostering SE fracture and dendrite propagation. Here, first- principles calculations are used to predict the volume changes associated with these M/SE (M = Li, Na) reactions as a function of electrochemical potential. 
+        </p>
+        <p>
+            To predict the decomposition reactions, I have developed a code package which gathers calculated properties of materials from the Materials Project to calculate the expected decomposition reactions. This code base is built upon Pymatgen APIs, but adds custom functionalities. Because the Materials Project has a wide swath of hypothetical compounds which may not form in reality, we added options to only include experimentally observed materials, exclude specific compounds from formation, and a variety of tools for visualization of the decomposition reactions and their associated volume changes.
+        </p>
     </div>
   </div>
 </article>
