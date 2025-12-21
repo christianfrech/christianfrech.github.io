@@ -6,11 +6,17 @@
 <article class="text-center">
   <div class="container-fluid">
     <div class="mx-auto" style="width:80%;">
-      Dendrite growth plagues lithium metal batteries, leading to shortage & cell failure when cycling at sufficiently high current density. The growth of voids is linked to the nucleation and growth of dendrites via current concentration.
-      However, these processes often originate on nanometer length scales and are obscured from view, or the features are disturbed or destroyed during measurement via spectroscopy techniques.
-      We have developed a multiscale framework to observe the nucleation and dissolution of voids, beginning with DFT calculations to observe the bidining energies of vacancies to vacancy clusters and 
-      solid electrolyte interfaces. These results were used in kMC simulations to visualize and qualtify the dissolution of vacancies in the lithium metal and at the solid electrolyte interface.
-      As a function of void energy below bulk and solid electrolyte binding energy, maps to inform experiementalists of the fundamental properties of lithium were developed, along with visualizations. </p>
+    Dendrite growth plagues lithium metal batteries, leading to short-circuiting & cell failure when cycling at sufficiently high current density. To prevent dendritic growth, maintaining contact between the lithium metal anode and the chosen solid electrolyte is of great importance, as it is very difficult to quickly move lithium ions across the interface once contact is lost. 
+    </p>
+    <p>
+    Multiple factors can affect interfacial contact. Improper choice of solid electrolyte can provide weak adhesion between the lithium metal anode and solid electrolyte, leading to delamination and formation of voids at the interface. Introducing defects, such as dislocations or grain boundaries, can actually improve the rate of lithium movement, reducing contact loss.  We seek to develop an understanding of the relationships between these design choices and interfacial contact. 
+    </p>
+    <p>
+        However, these processes often originate on nanometer length scales and are therefore difficult to observe experimentally, or the features are disturbed or destroyed during measurement via spectroscopy techniques. I have developed a multiscale framework to simulate the nucleation and dissolution of voids, beginning with DFT calculations to observe the binding energies of vacancies to vacancy clusters and solid electrolyte interfaces. These results were used in kinetic Monte Carlo (kMC) simulations to visualize and quantify the dissolution of voids in the lithium metal and at the solid electrolyte interface. We tune various parameters, such as solid electrolyte used, void size, and type of defects present in the system to identify optimal design strategies for long-lasting battery cells without dendritic growth.
+    </p>
+    <p>
+        These kMC simulations are run using a C++ library that I have developed and maintained optimized for minimized memory usage and maximized speed. This has allowed us to reach longer timescales and larger system simulation sizes than those explored in prior kMC investigations. I am also developing a parallelized version of the code which uses MPI communication for simulating much larger systems. Both the serial and parallel libraries are available as open-source codes on my Github, along with documentation written with Doxygen for consistent styling, easy readability, and use.
+    </p>
     </div>
   </div>
 </article>
@@ -33,7 +39,7 @@
           autoplay
           muted
           controls >
-            <source src="https://christianfrech.github.io/christianfrech.github.io/assets/video/sim_movie_horizview.mp4" type="video/mp4">
+            <source src="assets/video/sim_movie_horizview.mp4" type="video/mp4">
           </video>
       </body>
 
@@ -46,7 +52,7 @@
           preload="auto"
           controls
           style="width:100%; height:auto;" >
-          <source src="https://christianfrech.github.io/christianfrech.github.io/assets/video/sim_movie_horizview.mp4" type="video/mp4">
+          <source src="/assets/video/sim_movie_horizview.mp4" type="video/mp4">
         </video>
       </div>
 
@@ -59,7 +65,7 @@
           preload="auto"
           controls
           style="width:100%; height:auto;" >
-          <source  src="https://christianfrech.github.io/christianfrech.github.io/assets/video/sim_movie_tiltview.mp4" type="video/mp4">
+          <source  src="/assets/video/sim_movie_tiltview.mp4" type="video/mp4">
         </video>
       </div>
       </figure> </div> </div> <div class="caption"> Simulations of various voids and vacancy configurations dissolving at a solid-electrolyte-lithium metal interface </div> <p></p>
